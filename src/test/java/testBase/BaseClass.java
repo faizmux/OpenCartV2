@@ -48,7 +48,7 @@ public class BaseClass {
 
             //os
             if (os.equalsIgnoreCase("windows")) {
-                cap.setPlatform(Platform.WIN10);
+                cap.setPlatform(Platform.WIN11);
             } else if (os.equalsIgnoreCase("mac")) {
                 cap.setPlatform(Platform.MAC);
             } else if (os.equalsIgnoreCase("linux")) {
